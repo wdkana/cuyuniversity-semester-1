@@ -1,0 +1,38 @@
+{
+  "name": "rupiah-format",
+  "version": "1.0.0",
+  "description": "Change normal number to rupiah format",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dharmadi93/rupiah-format.git"
+  },
+  "keywords": [
+    "rupiah",
+    "format",
+    "indonesia",
+    "uang",
+    "money",
+    "rupiah",
+    "format",
+    "rupiah-format"
+  ],
+  "author": "Dharmadi Tanamas <dharmadi93@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dharmadi93/rupiah-format/issues"
+  },
+  "homepage": "https://github.com/dharmadi93/rupiah-format#readme",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}

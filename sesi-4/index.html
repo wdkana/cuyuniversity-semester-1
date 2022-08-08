@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
+    <title>CETRAK CETREK LAMPU SESI 4</title>
+
+  </head>
+  <body>
+    <div class="flex justify-center items-center min-h-screen w-full
+      bg-gray-800 gap-4">
+      <!-- lampu 1 -->
+      <div class="flex flex-col gap-2 items-center">
+        <img src="assets/images/off.gif" alt="" id="lampu1" />
+
+        <label for="default-toggle1" class="inline-flex relative items-center
+          cursor-pointer">
+          <input type="checkbox" id="default-toggle1" class="sr-only
+            peer" onchange="saklar()">
+          <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none
+            peer-focus:ring-4 peer-focus:ring-blue-300
+            dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700
+            peer-checked:after:translate-x-full peer-checked:after:border-white
+            after:content-[''] after:absolute after:top-[2px] after:left-[2px]
+            after:bg-white after:border-gray-300 after:border after:rounded-full
+            after:h-5 after:w-5 after:transition-all dark:border-gray-600
+            peer-checked:bg-blue-600"></div>
+        </label>
+      </div>
+
+      <!-- lampu 2 -->
+      <div class="flex flex-col gap-2 items-center">
+        <img src="assets/images/off.gif" alt="" id="lampu2" />
+        <label for="default-toggle2" class="inline-flex relative items-center
+          cursor-pointer">
+          <input type="checkbox" id="default-toggle2" class="sr-only
+            peer" onchange="saklar()">
+          <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none
+            peer-focus:ring-4 peer-focus:ring-blue-300
+            dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700
+            peer-checked:after:translate-x-full peer-checked:after:border-white
+            after:content-[''] after:absolute after:top-[2px] after:left-[2px]
+            after:bg-white after:border-gray-300 after:border after:rounded-full
+            after:h-5 after:w-5 after:transition-all dark:border-gray-600
+            peer-checked:bg-blue-600"></div>
+        </label>
+      </div>
+
+      <!-- lampu 3 -->
+      <div class="flex flex-col gap-2 items-center">
+        <img src="assets/images/off.gif" alt="" id="lampu3" />
+        <label for="default-toggle3" class="inline-flex relative
+          items-center
+          cursor-pointer">
+          <input type="checkbox" id="default-toggle3" class="sr-only
+            peer" onchange="saklar()">
+          <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none
+            peer-focus:ring-4 peer-focus:ring-blue-300
+            dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700
+            peer-checked:after:translate-x-full
+            peer-checked:after:border-white
+            after:content-[''] after:absolute after:top-[2px] after:left-[2px]
+            after:bg-white after:border-gray-300 after:border
+            after:rounded-full
+            after:h-5 after:w-5 after:transition-all dark:border-gray-600
+            peer-checked:bg-blue-600"></div>
+        </label>
+      </div>
+
+    </div>
+    <!-- ini adalah script js kita -->
+    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+    <script src="saklar.js" type="application/javascript"></script>
+  </body>
+</html>
